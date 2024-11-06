@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main() {
+int r;
+float pi=3.14, area;
+printf("Enter the radius");
+scanf("%d",&r);
+area=pi*r*r;
+printf("the answer is:%f", area);
+} 
+**********************************
+output:
+Enter the radius 44
+the answer is:50.240002
+**********************************
+
