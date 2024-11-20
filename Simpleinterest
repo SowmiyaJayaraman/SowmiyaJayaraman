@@ -1,0 +1,20 @@
+// write a c program for simple interest
+#include<stdio. h>
+void main()
+{
+  float p, r, t, si;
+  printf("enter the p");
+  scanf("%f", &p);
+  printf("enter the r");
+  scanf("%f", &r);
+  printf("enter the t");
+  scanf("%f", &t);
+   si=(p*r*t)/100;
+  printf("%f\n", si);
+  }
+  *********************************
+  output
+  enter the p:1000
+  enter the r:3
+  enter the t:5
+   si=150.0000000
