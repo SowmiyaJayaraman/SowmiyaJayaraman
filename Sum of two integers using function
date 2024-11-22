@@ -12,3 +12,25 @@ output:
 enter the number 12
 4
 sum of two integer 16
+**************************************
+//without return type and without parameter
+#include <stdio. h>
+void sum();
+void main 
+ {
+    sum();
+ } 
+ void sum() 
+ { 
+  int n1,n2,result;
+  printf("enter the number"); 
+  scanf("%d%d", &n1,&n2);
+  result=n1+n2;
+  printf("sum of two integers:%d", result);
+  }
+ ********************************************** 
+output 
+enter the number 12
+4
+sum of two integers 16
+******************†************************
